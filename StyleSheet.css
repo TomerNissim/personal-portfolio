@@ -1,7 +1,7 @@
 html{
-    background-color:rgb(185, 181, 181) ;
     
-
+background: rgb(34,140,195);
+background: linear-gradient(0deg, rgba(34,140,195,1) 33%, rgba(45,224,253,1) 66%);
 }
 #welcome-section{
    height: 100vh;
@@ -14,7 +14,7 @@ html{
  
 }
 #welcome-section h1{
-    margin-top: 30px;
+    margin-top: 40vh;
 }
 #welcome-section p{
     text-align: center;
@@ -22,36 +22,6 @@ html{
     width: 50%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif 
 }
-
-#projects{
-    height: 50vh;
-    margin: auto;
-    padding: 30px;
-    text-align: center;
-    font-size:20px;
-
-
-}
-footer{
-
-    height: 30vh;
-    display: inline-flex;
-    text-align: center;
-    margin-top: 100px;
-    margin-left:40%;
-}
-.project-tile img{
-    width: 250PX;
-    display: inline;
-    }
- .contactImg{
-        height:40px;
-        width: 80px;
-        
-    }
-
-
-
 #navbar{
     background-color: rgba(53, 52, 52,0.9);
     width: 100%;
@@ -67,6 +37,50 @@ footer{
     padding: 5px;
    
 }
+
+#projects{
+    height: 80vh;
+    font-size:25px;
+    
+    text-align: center;
+   
+
+}
+#projects h1{
+    text-align: center;
+    
+}
+project1{
+    margin-top: 20vh;
+   color: black;
+    padding: 20px;
+    
+    
+
+}
+project2{
+    margin-top: 20vh;
+    padding: 20px;
+    color: black;
+    
+
+}
+footer{
+
+    height: 30vh;
+    display: inline-flex;
+    text-align: center;
+    margin-top: 100px;
+    margin-left:40%;
+}
+.project-tile img{
+    width: 250PX;
+ }
+.contactImg{
+        height:40px;
+        width: 80px;
+        
+ }
 
 
 .git{
