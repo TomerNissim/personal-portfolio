@@ -35,15 +35,17 @@ html{
 footer{
 
     height: 30vh;
-    margin: auto;
+    display: inline-flex;
     text-align: center;
     margin-top: 100px;
+    margin-left:40%;
 }
 .project-tile img{
     width: 250PX;
     display: inline;
     }
  .contactImg{
+        height:40px;
         width: 80px;
         
     }
@@ -67,5 +69,16 @@ footer{
 }
 
 
+.git{
+    
+    padding: 10px;
+   
+}
 
+.fcc{
+    
+    
+    padding: 10px;
+    
+}
 
