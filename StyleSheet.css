@@ -1,5 +1,4 @@
-html{
-    
+html{   
 background: rgb(34,140,195);
 background: linear-gradient(0deg, rgba(34,140,195,1) 33%, rgba(45,224,253,1) 66%);
 }
@@ -7,92 +6,70 @@ background: linear-gradient(0deg, rgba(34,140,195,1) 33%, rgba(45,224,253,1) 66%
    height: 100vh;
    margin: auto;
    font-size:30px;
-   text-align: center;
-  
+   text-align: center; 
   font-family: Georgia, 'Times New Roman', Times, serif;
-  
- 
 }
-#welcome-section h1{
-    margin-top: 40vh;
-}
-#welcome-section p{
-    text-align: center;
-    margin: auto;
-    width: 50%;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif 
-}
+        #welcome-section h1{
+            margin-top: 40vh;
+        }
+        #welcome-section p{
+            text-align: center;
+            margin: auto;
+            width: 50%;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif 
+        }
 #navbar{
     background-color: rgba(53, 52, 52,0.9);
     width: 100%;
     position: fixed;
     margin: 0 ;
     top: 0;
-    padding: 15px 0px;
-    
-    
+    padding: 15px 20px;   
 }
-#navbar a {
-    color: white;
-    padding: 5px;
-   
-}
-
+        #navbar a {
+            color: white;
+            padding: 20px;
+        }
 #projects{
     height: 80vh;
-    font-size:25px;
-    
-    text-align: center;
-   
-
+    font-size:25px; 
+    text-align: center;  
 }
-#projects h1{
-    text-align: center;
-    
-}
-project1{
-    margin-top: 20vh;
-   color: black;
-    padding: 20px;
-    
-    
-
-}
-project2{
-    margin-top: 20vh;
-    padding: 20px;
-    color: black;
-    
-
-}
+        #projects h1{
+            text-align: center;  
+        }
+        project1{
+            margin-top: 20vh;
+        color: black;
+            padding: 20px;
+        }
+        project2{
+            margin-top: 20vh;
+            padding: 20px;
+            color: black;
+        }
+        
+       
 footer{
-
     height: 30vh;
     display: inline-flex;
     text-align: center;
     margin-top: 100px;
     margin-left:40%;
 }
-.project-tile img{
-    width: 250PX;
- }
-.contactImg{
-        height:40px;
-        width: 80px;
-        
- }
+        .project-tile img{
+            width: 250PX;
+        }
+        .contactImg{
+                height:40px;
+                width: 80px;
+                
+        }
+        .git{   
+            padding: 10px;
+        }
 
-
-.git{
-    
-    padding: 10px;
-   
-}
-
-.fcc{
-    
-    
-    padding: 10px;
-    
-}
+        .fcc{     
+            padding: 10px;   
+        }
 
